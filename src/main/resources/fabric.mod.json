@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "id": "littlehexxers",
+  "version": "${version}",
+
+  "name": "Little Hexxers",
+  "description": "",
+  "authors": [],
+  "contact": {},
+
+  "license": "MIT",
+  "icon": "assets/littlehexxers/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "fabric-datagen": ["ets.emergencytemporalshift.littlehexxers.client.LittleHexxersDataGenerator"],
+    "client": ["ets.emergencytemporalshift.littlehexxers.client.LittleHexxersClient"],
+    "main": ["ets.emergencytemporalshift.littlehexxers.LittleHexxers"]
+  },
+
+  "mixins": [
+    "littlehexxers.mixins.json"
+    ,{
+      "config": "littlehexxers.client.mixins.json",
+      "environment": "client"
+    }
+  ],
+
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric-language-kotlin": ">=${kotlin_loader_version}",
+    "fabric-api": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}

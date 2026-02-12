@@ -1,0 +1,25 @@
+{
+  "name": "yaha.page.spells.title",
+  "icon": "minecraft:pufferfish",
+  "category": "hexcasting:patterns/spells",
+  "advancement": "hexcasting:root",
+  "pages": [
+    {
+      "type": "hexcasting:pattern",
+      "op_id": "littlehexxers:mark_entity",
+      "anchor": "littlehexxers:mark_entity",
+      "input": "vector, entity",
+      "output": "",
+      "text": "littlehexxers.page.mark_entity.summary"
+    },
+    {
+      "type": "hexcasting:pattern",
+      "op_id": "littlehexxers:unmark_entity",
+      "anchor": "littlehexxers:unmark_entity",
+      "input": "entity",
+      "output": "",
+      "text": "littlehexxers.page.unmark_entity.summary"
+    },
+    "yaha.page.potion_to_item.0"
+  ]
+}
