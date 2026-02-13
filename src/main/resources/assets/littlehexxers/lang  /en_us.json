@@ -1,0 +1,9 @@
+
+{
+  "littlehexxers.page.spells.title": "Little Hexxers Spells",
+  "littlehexxers.page.mark_entity.summary": "Marks an entity with a glowing effect for a specified duration. Takes an entity, duration in seconds, visibility boolean, and an optional number.",
+  "littlehexxers.page.unmark_entity.summary": "Removes the glowing effect from a marked entity. Takes an entity as input.",
+  "littlehexxers.page.potion_to_item.0": "Additional utility spell for potion conversion.",
+  "spell.littlehexxers.mark_entity": "Mark Entity",
+  "spell.littlehexxers.unmark_entity": "Unmark Entity"
+}

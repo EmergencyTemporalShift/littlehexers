@@ -1,6 +1,6 @@
 {
-  "name": "yaha.page.spells.title",
-  "icon": "minecraft:pufferfish",
+  "name": "littlehexxers.page.spells.title",
+  "icon": "minecraft:glowstone_dust",
   "category": "hexcasting:patterns/spells",
   "advancement": "hexcasting:root",
   "pages": [
@@ -8,7 +8,7 @@
       "type": "hexcasting:pattern",
       "op_id": "littlehexxers:mark_entity",
       "anchor": "littlehexxers:mark_entity",
-      "input": "vector, entity",
+      "input": "entity, number, boolean, number | null",
       "output": "",
       "text": "littlehexxers.page.mark_entity.summary"
     },
@@ -20,6 +20,6 @@
       "output": "",
       "text": "littlehexxers.page.unmark_entity.summary"
     },
-    "yaha.page.potion_to_item.0"
+    "littlehexxers.page.potion_to_item.0"
   ]
 }
